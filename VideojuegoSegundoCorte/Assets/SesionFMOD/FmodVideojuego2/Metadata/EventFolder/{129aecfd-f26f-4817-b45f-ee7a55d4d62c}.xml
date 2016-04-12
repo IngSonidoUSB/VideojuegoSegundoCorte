@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="EventFolder" id="{129aecfd-f26f-4817-b45f-ee7a55d4d62c}">
+        <property name="name">
+            <value>Grupo 4</value>
+        </property>
+        <relationship name="folder">
+            <destination>{6d5722bc-c5d0-4f5f-b634-d6368076b370}</destination>
+        </relationship>
+    </object>
+</objects>
