@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 55a1868cc80aebb4bb4bfc1360c59e5b
+timeCreated: 1461023694
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 3D drvo_bijelo
+    100002: 3D metal_krom
+    100004: 3D plastika_crvena
+    100006: Apoyo ventanas
+    100008: argolla
+    100010: asiento
+    100012: base
+    100014: base portafolio
+    100016: bilbioteca
+    100018: CANECA
+    100020: Capa 01
+    100022: Chrom
+    100024: Correas
+    100026: cortinas
+    100028: Cuadros
+    100030: Cuero
+    100032: decoracion
+    100034: Default
+    100036: eje
+    100038: escritorio
+    100040: esferos
+    100042: esferos 2
+    100044: ESTRUCTURA
+    100046: Guardaescoba
+    100048: hojas
+    100050: iM Back
+    100052: iM Body
+    100054: iM Cord
+    100056: iM Logo And Border
+    100058: iM Pedestal
+    100060: iM Screen
+    100062: iMac
+    100064: jarrones
+    100066: KB Body
+    100068: KB Buttons
+    100070: KB Keys
+    100072: LAMPARAS
+    100074: M Body
+    100076: M Body 2
+    100078: M Scroll
+    100080: Marcos ventanas
+    100082: mesa
+    100084: Metal 01
+    100086: Muros
+    100088: Objeto_1
+    100090: Objeto_10
+    100092: Objeto_11
+    100094: Objeto_12
+    100096: Objeto_2
+    100098: Objeto_3
+    100100: Objeto_4
+    100102: Objeto_5
+    100104: Objeto_6
+    100106: Objeto_7
+    100108: Objeto_8
+    100110: Objeto_9
+    100112: papel
+    100114: Patas
+    100116: patas silla
+    100118: piso
+    100120: portafolio
+    100122: //RootNode
+    100124: ruedas
+    100126: Silla Descanso
+    100128: sillas
+    100130: Sklo Mlecne
+    100132: Sofas
+    100134: tablas
+    100136: Techo
+    100138: tela
+    100140: tuberia
+    100142: vidrio
+    100144: Vidrios
+    400000: 3D drvo_bijelo
+    400002: 3D metal_krom
+    400004: 3D plastika_crvena
+    400006: Apoyo ventanas
+    400008: argolla
+    400010: asiento
+    400012: base
+    400014: base portafolio
+    400016: bilbioteca
+    400018: CANECA
+    400020: Capa 01
+    400022: Chrom
+    400024: Correas
+    400026: cortinas
+    400028: Cuadros
+    400030: Cuero
+    400032: decoracion
+    400034: Default
+    400036: eje
+    400038: escritorio
+    400040: esferos
+    400042: esferos 2
+    400044: ESTRUCTURA
+    400046: Guardaescoba
+    400048: hojas
+    400050: iM Back
+    400052: iM Body
+    400054: iM Cord
+    400056: iM Logo And Border
+    400058: iM Pedestal
+    400060: iM Screen
+    400062: iMac
+    400064: jarrones
+    400066: KB Body
+    400068: KB Buttons
+    400070: KB Keys
+    400072: LAMPARAS
+    400074: M Body
+    400076: M Body 2
+    400078: M Scroll
+    400080: Marcos ventanas
+    400082: mesa
+    400084: Metal 01
+    400086: Muros
+    400088: Objeto_1
+    400090: Objeto_10
+    400092: Objeto_11
+    400094: Objeto_12
+    400096: Objeto_2
+    400098: Objeto_3
+    400100: Objeto_4
+    400102: Objeto_5
+    400104: Objeto_6
+    400106: Objeto_7
+    400108: Objeto_8
+    400110: Objeto_9
+    400112: papel
+    400114: Patas
+    400116: patas silla
+    400118: piso
+    400120: portafolio
+    400122: //RootNode
+    400124: ruedas
+    400126: Silla Descanso
+    400128: sillas
+    400130: Sklo Mlecne
+    400132: Sofas
+    400134: tablas
+    400136: Techo
+    400138: tela
+    400140: tuberia
+    400142: vidrio
+    400144: Vidrios
+    2300000: Objeto_1
+    2300002: Objeto_10
+    2300004: Objeto_11
+    2300006: Objeto_12
+    2300008: Objeto_2
+    2300010: Objeto_3
+    2300012: Objeto_4
+    2300014: Objeto_5
+    2300016: Objeto_6
+    2300018: Objeto_7
+    2300020: Objeto_8
+    2300022: Objeto_9
+    3300000: Objeto_1
+    3300002: Objeto_10
+    3300004: Objeto_11
+    3300006: Objeto_12
+    3300008: Objeto_2
+    3300010: Objeto_3
+    3300012: Objeto_4
+    3300014: Objeto_5
+    3300016: Objeto_6
+    3300018: Objeto_7
+    3300020: Objeto_8
+    3300022: Objeto_9
+    4300000: Objeto_1
+    4300002: Objeto_2
+    4300004: Objeto_3
+    4300006: Objeto_4
+    4300008: Objeto_5
+    4300010: Objeto_6
+    4300012: Objeto_7
+    4300014: Objeto_8
+    4300016: Objeto_9
+    4300018: Objeto_10
+    4300020: Objeto_11
+    4300022: Objeto_12
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
