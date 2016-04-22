@@ -3,22 +3,25 @@ using System.Collections;
 
 public class poder : MonoBehaviour
 {
-//DESARROLLADO POR: Angie Natalia Guerrero
+//DESARROLLADO POR: Angie Natalia Guerrero y Nathalia Milena Beltrán
 
     float Parpadeo = 0.1f;
     
     float val = 0.35f;
     float ran = 1f;
+	public GameObject imagen;
+	bool imagenActiva = true;
+
     // Use this for initialization
     void Start()
     {
-
+		imagen.SetActive (imagenActiva);
     }
 
     
     void Update()
     {
-       if(Input.GetKeyDown("space"))
+		if(Input.GetKeyDown("space") && imagenActiva)
         {
             StartCoroutine("WaitThreeSeconds");
 
@@ -28,6 +31,8 @@ public class poder : MonoBehaviour
 
      IEnumerator WaitThreeSeconds()
     {
+		imagenActiva = false;
+		imagen.SetActive (imagenActiva);
         for (int i= 0; i < 6; i++)
         {
 
@@ -49,6 +54,9 @@ public class poder : MonoBehaviour
             GetComponent<Light>().range = ran;
             yield return new WaitForSeconds(0.05f);
         }
+		yield return new WaitForSeconds (30);
+		imagenActiva = true;
+		imagen.SetActive (imagenActiva);
     }
         
     

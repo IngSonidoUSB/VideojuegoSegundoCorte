@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7688B823-A896-6505-6B42-08E389FCB738}</ProjectGuid>
+    <ProjectGuid>{02834BC2-0E2E-195E-989E-9D1C1FD60E75}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,8 +45,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\MovCat.cs" />
-     <None Include="Assets\StreamingAssets\FMOD_bank_list.txt" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\CnInputSystem\CnInputManager.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\CnInputSystem\VirtualAxis.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\CnInputSystem\VirtualButton.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\Controllers\Dpad.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\Controllers\DpadAxis.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\Controllers\InputHelpers\BaseInputHelper.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\Controllers\InputHelpers\ButtonInputHelper.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\Controllers\InputHelpers\DpadInputHelper.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\Controllers\InputHelpers\JoystickInputHelper.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\Controllers\InputHelpers\TouchpadInputHelper.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\Controllers\SensitiveJoystick.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\Controllers\SimpleButton.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\Controllers\SimpleJoystick.cs" />
+     <Compile Include="Assets\scripts\CNControls\Scripts\Controllers\Touchpad.cs" />
+     <Compile Include="Assets\scripts\Cronometro.cs" />
+     <Compile Include="Assets\scripts\MovCamera.cs" />
+     <Compile Include="Assets\scripts\Victoria.cs" />
+     <Compile Include="Assets\scripts\poder.cs" />
+     <None Include="Assets\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -56,7 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{06D86D1A-BE05-3221-3BEC-FAA3E5AC91CC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{7365086D-23B9-97E0-837D-C1877877105C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

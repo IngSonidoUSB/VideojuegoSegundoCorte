@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{06D86D1A-BE05-3221-3BEC-FAA3E5AC91CC}</ProjectGuid>
+    <ProjectGuid>{7365086D-23B9-97E0-837D-C1877877105C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -53,7 +53,7 @@
      <Compile Include="Assets\Plugins\FMOD\Wrapper\fmod_dsp.cs" />
      <Compile Include="Assets\Plugins\FMOD\Wrapper\fmod_errors.cs" />
      <Compile Include="Assets\Plugins\FMOD\Wrapper\fmod_studio.cs" />
-     <None Include="Assets\StreamingAssets\FMOD_bank_list.txt" />
+     <None Include="Assets\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

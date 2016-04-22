@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EBBC2ED7-C990-99A6-3CDA-45E4FE6B0A48}</ProjectGuid>
+    <ProjectGuid>{316C2600-2A26-9613-A9CA-E3E2595D7B31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -47,7 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Plugins\FMOD\Editor\FMODEditorExtension.cs" />
      <Compile Include="Assets\Plugins\FMOD\Editor\FMODEmitterGizmo.cs" />
-     <None Include="Assets\StreamingAssets\FMOD_bank_list.txt" />
+     <None Include="Assets\readme.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -105,7 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{06D86D1A-BE05-3221-3BEC-FAA3E5AC91CC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{7365086D-23B9-97E0-837D-C1877877105C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

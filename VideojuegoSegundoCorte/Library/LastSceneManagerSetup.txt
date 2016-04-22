@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/Grupo5/Assets/lab.unity
+  isLoaded: 1
+  isActive: 1

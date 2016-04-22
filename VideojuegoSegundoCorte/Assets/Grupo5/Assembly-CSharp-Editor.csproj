@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5E5B2BCA-D89C-8454-D650-6E5F1AC99AE5}</ProjectGuid>
+    <ProjectGuid>{FF8290C8-F3D0-F80E-A625-A1480D3B467D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -47,7 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Editor\FMODEventEmitterInspector.cs" />
      <Compile Include="Assets\Editor\FMODEventInspector.cs" />
-     <None Include="Assets\StreamingAssets\FMOD_bank_list.txt" />
+     <None Include="Assets\readme.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -117,9 +117,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{06D86D1A-BE05-3221-3BEC-FAA3E5AC91CC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{7365086D-23B9-97E0-837D-C1877877105C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{02834BC2-0E2E-195E-989E-9D1C1FD60E75}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{EBBC2ED7-C990-99A6-3CDA-45E4FE6B0A48}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{316C2600-2A26-9613-A9CA-E3E2595D7B31}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
