@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Bat@ss.unity
+- path: Assets/Scenes/Bat@ss.unity
   isLoaded: 1
   isActive: 1

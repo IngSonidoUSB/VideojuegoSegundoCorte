@@ -45,12 +45,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BarraVida.cs" />
      <Compile Include="Assets\Day Night Cycle\Scripts\DayNightController.cs" />
      <Compile Include="Assets\Day Night Cycle\Scripts\DemoScripts\RoatateCamera.cs" />
-     <Compile Include="Assets\ElementoInteractivo.cs" />
-     <Compile Include="Assets\MOVE.cs" />
-     <Compile Include="Assets\Spider.cs" />
+     <Compile Include="Assets\FMOD_Control.cs" />
+     <Compile Include="Assets\Scripts\BarraVida.cs" />
+     <Compile Include="Assets\Scripts\ElementoInteractivo.cs" />
+     <Compile Include="Assets\Scripts\MOVE.cs" />
+     <Compile Include="Assets\Scripts\Spider.cs" />
      <None Include="Assets\Day Night Cycle\ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -58,6 +59,10 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7640458D-AF51-FFEA-C121-B6BD3275F217}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

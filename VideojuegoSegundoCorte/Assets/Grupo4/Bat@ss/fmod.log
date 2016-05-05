@@ -1,0 +1,1479 @@
+[LOG] SystemI::init                            : FMOD Studio Version: 00010800 (73592)
+[LOG] SystemI::init                            : maxchannels = 1024, flags = 00030000, extradriverdata = 0x0
+[LOG] SystemI::close                           : 
+[LOG] SystemI::close                           : Stop all sounds
+[LOG] SystemI::close                           : done.
+
+[LOG] OutputCoreAudio::enumerate               : Enumerating...
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Built-in Output".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Soundflower (2ch)".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Soundflower (64ch)".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Pro Tools Aggregate I/O".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Rock Band II".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "SKYPE MUSIC".
+[LOG] OutputCoreAudio::enumerate               : Done.
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 44100Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Maximum hardware read size: 1024 samples, Software buffer size: 512 samples, Number of software buffers: 4.
+[WRN] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
+[LOG] Thread::initThread                       : Initializing FMOD mixer thread.  priority 3
+[LOG] Thread::initThread                       : - Stacksize 49152.  Stack pointer 0x0 : usesemaphore = 1 : sleeptime = 0
+[LOG] Thread::callback                         : * FMOD mixer thread started
+[LOG] SystemI::init                            : Set up emulated output
+[LOG] SystemI::init                            : create the channel pool
+[LOG] Thread::initThread                       : Initializing FMOD stream thread.  priority 2
+[LOG] Thread::initThread                       : - Stacksize 65536.  Stack pointer 0x0 : usesemaphore = 0 : sleeptime = 10
+[LOG] Thread::callback                         : * FMOD stream thread started
+[LOG] Thread::initThread                       : Initializing FMOD Studio update thread.  priority 0
+[LOG] Thread::initThread                       : - Stacksize 65536.  Stack pointer 0x0 : usesemaphore = 0 : sleeptime = 1
+[LOG] Thread::callback                         : * FMOD Studio update thread started
+[LOG] Thread::initThread                       : Initializing FMOD Studio sample load thread.  priority 0
+[LOG] Thread::initThread                       : - Stacksize 65536.  Stack pointer 0x0 : usesemaphore = 0 : sleeptime = 1
+[LOG] Thread::callback                         : * FMOD Studio sample load thread started
+[LOG] LiveUpdate::init                         : 
+[LOG] Thread::initThread                       : Initializing FMOD Studio bank load thread.  priority 0
+[LOG] Thread::initThread                       : - Stacksize 65536.  Stack pointer 0x0 : usesemaphore = 0 : sleeptime = 1
+[LOG] Thread::callback                         : * FMOD Studio bank load thread started
+[LOG] Profile::init                            : Profiler listening on port: 9264
+[LOG] Manager::readBank                        : fileversion = 72, compatVersion = 70 (oldest = 44, newest = 72)
+[LOG] Manager::readBank                        : fileversion = 72, compatVersion = 70 (oldest = 44, newest = 72)
+[LOG] Manager::readBank                        : fileversion = 72, compatVersion = 70 (oldest = 44, newest = 72)
+[LOG] Manager::readBank                        : fileversion = 72, compatVersion = 70 (oldest = 44, newest = 72)
+[LOG] Manager::readBank                        : fileversion = 72, compatVersion = 70 (oldest = 44, newest = 72)
+[LOG] Manager::readBank                        : fileversion = 72, compatVersion = 70 (oldest = 44, newest = 72)
+[LOG] Manager::readBank                        : fileversion = 72, compatVersion = 70 (oldest = 44, newest = 72)
+[LOG] SystemI::createSound                     : filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] Thread::initThread                       : Initializing FMOD nonblocking thread (0).  priority 1
+[LOG] Thread::initThread                       : - Stacksize 81920.  Stack pointer 0x0 : usesemaphore = 1 : sleeptime = 0
+[LOG] Thread::callback                         : * FMOD nonblocking thread (0) started
+[LOG] SystemI::createSound                     : setdata soundi = 0x10abae378 : node = 0x10abae530
+[LOG] SystemI::createSound                     : add node to async list : head = 0x10ab8f160.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10abae378
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10abae648
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1543a1a68 : node = 0x13e1c5c20
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 0
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 384320
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10ab79b38 : node = 0x10ab806d0
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 1
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 384320, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x154ae3198 : node = 0x10a91e660
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 2
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] Thread::initThread                       :         Initializing FMOD file thread.  priority 1
+[LOG] SystemI::createSound                     :         FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] Thread::initThread                       :         - Stacksize 16384.  Stack pointer 0x0 : usesemaphore = 0 : sleeptime = 10
+[LOG] SystemI::createSound                     :         setdata soundi = 0x10ab73918 : node = 0x10ab74db0
+[LOG] Thread::callback                         :         * FMOD file thread started
+[LOG] SystemI::createSound                     :         add node to async list : head = 0x10ab8f160.  list count = 3
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10abae378
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1543a1a68
+[LOG] SystemI::createSound                     : filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10ab72368 : node = 0x1543c89b0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 3
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13e1c5d38
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13e0184d8 : node = 0x13e056660
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 4
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13e1c2bc8 : node = 0x13e1c2d80
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 5
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13e1c30d8 : node = 0x13e1c3290
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 6
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1543a1a68
+[LOG] SystemI::createSound                     : setdata soundi = 0x1340a5a08 : node = 0x10a9b86b0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10ab79b38
+[LOG] SystemI::createSound                     : add node to async list : head = 0x10ab8f160.  list count = 6
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1543a5ec8 : node = 0x1543a6080
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 7
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10ab807e8
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     setdata soundi = 0x134004828 : node = 0x1340059e0
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 8
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1543a78b8 : node = 0x10ab71b70
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 9
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13e0b89f8 : node = 0x13e08c430
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 10
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13428dfd8 : node = 0x134205b70
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 11
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13e18bbf8 : node = 0x10ab71cb0
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10ab79b38
+[LOG] SystemI::createSound                     : add node to async list : head = 0x10ab8f160.  list count = 12
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x154ae3198
+[LOG] SystemI::createSound                     : filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10a91e778
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10abef818 : node = 0x154355be0
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 12
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10ab8c738 : node = 0x10ab8c8f0
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 13
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13402b5b8 : node = 0x134025330
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 14
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13e18e3e8 : node = 0x13e18e5a0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 15
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x154ae3198
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10ab73918
+[LOG] SystemI::createSound                     : filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10ab74ec8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10abf60a8 : node = 0x12c16c0c0
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 15
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13e18e188 : node = 0x13428ef20
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 16
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13e18e6c8 : node = 0x13e18e880
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10ab73918
+[LOG] SystemI::createSound                     : add node to async list : head = 0x10ab8f160.  list count = 17
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10ab72368
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1543c8ac8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10ab72368
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13e0184d8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13e056778
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10a9d4de8 : node = 0x1340251f0
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 16
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13e0184d8
+[LOG] SystemI::createSound                     : filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13e1c2bc8
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10abb3c38 : node = 0x12c16d090
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 16
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10ab9c498 : node = 0x1543c98c0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13e1c2e98
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 17
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10ab9c638 : node = 0x10ab9ce80
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 18
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13e1c2bc8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13e1c30d8
+[LOG] SystemI::createSound                     : filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10ab9cfa8 : node = 0x10ab9d160
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 18
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13e1c33a8
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1340042b8 : node = 0x134004470
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 19
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10ab9d508 : node = 0x10ab0e5c0
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 20
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] SystemI::createSound                     :     setdata soundi = 0x10a9da4b8 : node = 0x10a978510
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 21
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13e1c30d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1340a5a08
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10a9b87c8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SystemI::createSound                     :     setdata soundi = 0x154a82778 : node = 0x154a82930
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1340a5a08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1543a5ec8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1543a6198
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 20
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1543c0bc8 : node = 0x1543c0d80
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 21
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1543ea7c8 : node = 0x154331540
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 22
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1543a5ec8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x134004828
+[LOG] SystemI::createSound                     : filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x134005af8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0x13e197768 : node = 0x13e197920
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 22
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x134004828
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1543a78b8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10ab71c88
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SystemI::createSound                     :     setdata soundi = 0x134267078 : node = 0x134267230
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 22
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1543a78b8
+[LOG] SystemI::createSound                     : filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13e0b89f8
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSound                     :     setdata soundi = 0x154346708 : node = 0x1543a8f80
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 22
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13e08c548
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1543a9e28 : node = 0x1543a9fe0
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 23
+[LOG] SystemI::createSound                     :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1543aa788 : node = 0x1543aa940
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x10ab8f160.  list count = 24
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SoundI::getSubSound                      :     sound 0x10abae378.  Subsound index 0 / 1
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] SoundI::getSubSound                      :     sound 0x1543a1a68.  Subsound index 0 / 1
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13e0b89f8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13428dfd8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x134205c88
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SoundI::getSubSound                      :     sound 0x10ab79b38.  Subsound index 0 / 1
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13428dfd8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13e18bbf8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10ab71dc8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13e18bbf8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10abef818
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x154355cf8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SoundI::getSubSound                      :     sound 0x154ae3198.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      :     sound 0x10ab73918.  Subsound index 0 / 1
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] SoundI::getSubSound                      :     sound 0x10ab72368.  Subsound index 0 / 1
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SoundI::getSubSound                      :     sound 0x13e0184d8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] SoundI::getSubSound                      :     sound 0x13e1c2bc8.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10abef818
+[LOG] SoundI::getSubSound                      : sound 0x13e1c30d8.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10ab8c738
+[LOG] SoundI::getSubSound                      : sound 0x1340a5a08.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SoundI::getSubSound                      :     sound 0x1543a5ec8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SoundI::getSubSound                      :     sound 0x134004828.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SoundI::getSubSound                      :     sound 0x1543a78b8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SoundI::getSubSound                      :     sound 0x13e0b89f8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SoundI::getSubSound                      :     sound 0x13428dfd8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10ab8ca08
+[LOG] SoundI::getSubSound                      :     sound 0x13e18bbf8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SoundI::getSubSound                      :     sound 0x10abef818.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10ab8c738
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13402b5b8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x134025448
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] SoundI::getSubSound                      :     sound 0x10ab8c738.  Subsound index 0 / 1
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13402b5b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13e18e3e8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13e18e6b8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13e18e3e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10abf60a8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x12c16c1d8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10abf60a8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13e18e188
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13428f038
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13e18e188
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13e18e6c8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13e18e998
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13e18e6c8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10a9d4de8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x134025308
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SoundI::getSubSound                      :     sound 0x13402b5b8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10a9d4de8
+[LOG] SoundI::getSubSound                      : sound 0x13e18e3e8.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10abb3c38
+[LOG] SoundI::getSubSound                      : sound 0x10abf60a8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SoundI::getSubSound                      :     sound 0x13e18e188.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SoundI::getSubSound                      :     sound 0x13e18e6c8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SoundI::getSubSound                      :     sound 0x10a9d4de8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x12c16d1a8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10abb3c38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10ab9c498
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1543c99d8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10ab9c498
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10ab9c638
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10ab9cf98
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10ab9c638
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10ab9cfa8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10ab9d278
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10ab9cfa8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1340042b8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x134004588
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1340042b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10ab9d508
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10ab0e6d8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SoundI::getSubSound                      :     sound 0x10abb3c38.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      :     sound 0x10ab9c498.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      :     sound 0x10ab9c638.  Subsound index 0 / 1
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10ab9d508
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x10a9da4b8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x10a978628
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x10a9da4b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x154a82778
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x154a82a48
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SoundI::getSubSound                      :     sound 0x10ab9cfa8.  Subsound index 0 / 1
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x154a82778
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1543c0bc8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1543c0e98
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1543c0bc8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1543ea7c8
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x154331658
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1543ea7c8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13e197768
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13e197a38
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SoundI::getSubSound                      :     sound 0x1340042b8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SoundI::getSubSound                      :     sound 0x10ab9d508.  Subsound index 0 / 1
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SoundI::getSubSound                      :     sound 0x10a9da4b8.  Subsound index 0 / 1
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SoundI::getSubSound                      :     sound 0x154a82778.  Subsound index 0 / 1
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SoundI::getSubSound                      :     sound 0x1543c0bc8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      :     sound 0x1543ea7c8.  Subsound index 0 / 1
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13e197768
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x134267078
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x134267348
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x134267078
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x154346708
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1543a9098
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x154346708
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1543a9e28
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1543aa0f8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 1826080
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 1826080, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1543a9e28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1543aa788
+[LOG] SystemI::createSoundInternal             :     filename = /Users/AlexRamirez/Documents/10mo Sem/Videojuegos/VideojuegoSegundoCorte/VideojuegoSegundoCorte/Assets/SesionFMOD/FmodVideojuego2/Build/Desktop/Grupo 4.bank : mode 0a010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2393312
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1543aaa58
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESTREAM
+[LOG] System::createSoundInternal              :     decode buffersize = 19200 : blocksize = 256 : format = 2
+[LOG] SystemI::createSample                    :     mode 0a010082 length 19200 samples, lengthbytes 128192
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x13e0d2f38
+[LOG] OutputSoftware::createSample             :     lengthpcm 19200, lengthbytes 128192, channels 2, format 2, freq 48000, mode 0a01008a
+[LOG] System::createSoundInternal              :     1 subsounds detected.
+[LOG] System::createSoundInternal              :     Seek stream to start
+[LOG] System::createSoundInternal              :     flush stream buffer
+[LOG] SoundI::getSubSound                      :     sound 0x13e197768.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      :     sound 0x134267078.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      :     sound 0x154346708.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      :     sound 0x1543a9e28.  Subsound index 0 / 1
+[LOG] System::createSoundInternal              :     flush successful.
+[LOG] System::createSoundInternal              :     switch file handle from small blocking single buffered to large nonblocking doublebuffered.
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1543aa788
+[LOG] SoundI::getSubSound                      : sound 0x1543aa788.  Subsound index 0 / 1
+[LOG] SoundI::release                          : (null) (0x1543aa788)
+[LOG] SoundI::release                          : remove stream samples. (0x1543aa788)
+[LOG] SoundI::release                          :     (null) (0x154a8adf8)
+[LOG] SoundI::release                          : release subsounds. (0x1543aa788)
+[LOG] SoundI::release                          :     (null) (0x154a8af88)
+[LOG] SoundI::release                          : release codec. (0x1543aa788)
+[LOG] SoundI::release                          : (null) (0x1543a9e28)
+[LOG] SoundI::release                          : remove stream samples. (0x1543a9e28)
+[LOG] SoundI::release                          :     (null) (0x154a88768)
+[LOG] SoundI::release                          : release subsounds. (0x1543a9e28)
+[LOG] SoundI::release                          :     (null) (0x154a888f8)
+[LOG] SoundI::release                          : release codec. (0x1543a9e28)
+[LOG] SoundI::release                          : (null) (0x154346708)
+[LOG] SoundI::release                          : remove stream samples. (0x154346708)
+[LOG] SoundI::release                          :     (null) (0x154a87d28)
+[LOG] SoundI::release                          : release subsounds. (0x154346708)
+[LOG] SoundI::release                          :     (null) (0x154a87eb8)
+[LOG] SoundI::release                          : release codec. (0x154346708)
+[LOG] SoundI::release                          : (null) (0x134267078)
+[LOG] SoundI::release                          : remove stream samples. (0x134267078)
+[LOG] SoundI::release                          :     (null) (0x154a83358)
+[LOG] SoundI::release                          : release subsounds. (0x134267078)
+[LOG] SoundI::release                          :     (null) (0x154a834e8)
+[LOG] SoundI::release                          : release codec. (0x134267078)
+[LOG] SoundI::release                          : (null) (0x13e197768)
+[LOG] SoundI::release                          : remove stream samples. (0x13e197768)
+[LOG] SoundI::release                          :     (null) (0x12bbc95f8)
+[LOG] SoundI::release                          : release subsounds. (0x13e197768)
+[LOG] SoundI::release                          :     (null) (0x12bbb2a28)
+[LOG] SoundI::release                          : release codec. (0x13e197768)
+[LOG] SoundI::release                          : (null) (0x1543ea7c8)
+[LOG] SoundI::release                          : remove stream samples. (0x1543ea7c8)
+[LOG] SoundI::release                          :     (null) (0x154a85d68)
+[LOG] SoundI::release                          : release subsounds. (0x1543ea7c8)
+[LOG] SoundI::release                          :     (null) (0x154a85ef8)
+[LOG] SoundI::release                          : release codec. (0x1543ea7c8)
+[LOG] SoundI::release                          : (null) (0x1543c0bc8)
+[LOG] SoundI::release                          : remove stream samples. (0x1543c0bc8)
+[LOG] SoundI::release                          :     (null) (0x154a85328)
+[LOG] SoundI::release                          : release subsounds. (0x1543c0bc8)
+[LOG] SoundI::release                          :     (null) (0x154a854b8)
+[LOG] SoundI::release                          : release codec. (0x1543c0bc8)
+[LOG] SoundI::release                          : (null) (0x154a82778)
+[LOG] SoundI::release                          : remove stream samples. (0x154a82778)
+[LOG] SoundI::release                          :     (null) (0x154a84ff8)
+[LOG] SoundI::release                          : release subsounds. (0x154a82778)
+[LOG] SoundI::release                          :     (null) (0x154a85188)
+[LOG] SoundI::release                          : release codec. (0x154a82778)
+[LOG] SoundI::release                          : (null) (0x10a9da4b8)
+[LOG] SoundI::release                          : remove stream samples. (0x10a9da4b8)
+[LOG] SoundI::release                          :     (null) (0x154a86de8)
+[LOG] SoundI::release                          : release subsounds. (0x10a9da4b8)
+[LOG] SoundI::release                          :     (null) (0x154a86f78)
+[LOG] SoundI::release                          : release codec. (0x10a9da4b8)
+[LOG] SoundI::release                          : (null) (0x10ab9d508)
+[LOG] SoundI::release                          : remove stream samples. (0x10ab9d508)
+[LOG] SoundI::release                          :     (null) (0x154a92778)
+[LOG] SoundI::release                          : release subsounds. (0x10ab9d508)
+[LOG] SoundI::release                          :     (null) (0x154a92908)
+[LOG] SoundI::release                          : release codec. (0x10ab9d508)
+[LOG] SoundI::release                          : (null) (0x1340042b8)
+[LOG] SoundI::release                          : remove stream samples. (0x1340042b8)
+[LOG] SoundI::release                          :     (null) (0x154a83fe8)
+[LOG] SoundI::release                          : release subsounds. (0x1340042b8)
+[LOG] SoundI::release                          :     (null) (0x154a84178)
+[LOG] SoundI::release                          : release codec. (0x1340042b8)
+[LOG] SoundI::release                          : (null) (0x10ab9cfa8)
+[LOG] SoundI::release                          : remove stream samples. (0x10ab9cfa8)
+[LOG] SoundI::release                          :     (null) (0x154a823d8)
+[LOG] SoundI::release                          : release subsounds. (0x10ab9cfa8)
+[LOG] SoundI::release                          :     (null) (0x154a82568)
+[LOG] SoundI::release                          : release codec. (0x10ab9cfa8)
+[LOG] SoundI::release                          : (null) (0x10ab9c638)
+[LOG] SoundI::release                          : remove stream samples. (0x10ab9c638)
+[LOG] SoundI::release                          :     (null) (0x154a733d8)
+[LOG] SoundI::release                          : release subsounds. (0x10ab9c638)
+[LOG] SoundI::release                          :     (null) (0x13eabd338)
+[LOG] SoundI::release                          : release codec. (0x10ab9c638)
+[LOG] SoundI::release                          : (null) (0x10ab9c498)
+[LOG] SoundI::release                          : remove stream samples. (0x10ab9c498)
+[LOG] SoundI::release                          :     (null) (0x154a737f8)
+[LOG] SoundI::release                          : release subsounds. (0x10ab9c498)
+[LOG] SoundI::release                          :     (null) (0x154a73988)
+[LOG] SoundI::release                          : release codec. (0x10ab9c498)
+[LOG] SoundI::release                          : (null) (0x10abb3c38)
+[LOG] SoundI::release                          : remove stream samples. (0x10abb3c38)
+[LOG] SoundI::release                          :     (null) (0x10ab91908)
+[LOG] SoundI::release                          : release subsounds. (0x10abb3c38)
+[LOG] SoundI::release                          :     (null) (0x154a7b328)
+[LOG] SoundI::release                          : release codec. (0x10abb3c38)
+[LOG] SoundI::release                          : (null) (0x10a9d4de8)
+[LOG] SoundI::release                          : remove stream samples. (0x10a9d4de8)
+[LOG] SoundI::release                          :     (null) (0x154a7a8e8)
+[LOG] SoundI::release                          : release subsounds. (0x10a9d4de8)
+[LOG] SoundI::release                          :     (null) (0x154a7aa78)
+[LOG] SoundI::release                          : release codec. (0x10a9d4de8)
+[LOG] SoundI::release                          : (null) (0x13e18e6c8)
+[LOG] SoundI::release                          : remove stream samples. (0x13e18e6c8)
+[LOG] SoundI::release                          :     (null) (0x154a79ea8)
+[LOG] SoundI::release                          : release subsounds. (0x13e18e6c8)
+[LOG] SoundI::release                          :     (null) (0x154a7a038)
+[LOG] SoundI::release                          : release codec. (0x13e18e6c8)
+[LOG] SoundI::release                          : (null) (0x13e18e188)
+[LOG] SoundI::release                          : remove stream samples. (0x13e18e188)
+[LOG] SoundI::release                          :     (null) (0x154a79b78)
+[LOG] SoundI::release                          : release subsounds. (0x13e18e188)
+[LOG] SoundI::release                          :     (null) (0x154a79d08)
+[LOG] SoundI::release                          : release codec. (0x13e18e188)
+[LOG] SoundI::release                          : (null) (0x10abf60a8)
+[LOG] SoundI::release                          : remove stream samples. (0x10abf60a8)
+[LOG] SoundI::release                          :     (null) (0x154a79138)
+[LOG] SoundI::release                          : release subsounds. (0x10abf60a8)
+[LOG] SoundI::release                          :     (null) (0x154a792c8)
+[LOG] SoundI::release                          : release codec. (0x10abf60a8)
+[LOG] SoundI::release                          : (null) (0x13e18e3e8)
+[LOG] SoundI::release                          : remove stream samples. (0x13e18e3e8)
+[LOG] SoundI::release                          :     (null) (0x154a786f8)
+[LOG] SoundI::release                          : release subsounds. (0x13e18e3e8)
+[LOG] SoundI::release                          :     (null) (0x154a78888)
+[LOG] SoundI::release                          : release codec. (0x13e18e3e8)
+[LOG] SoundI::release                          : (null) (0x13402b5b8)
+[LOG] SoundI::release                          : remove stream samples. (0x13402b5b8)
+[LOG] SoundI::release                          :     (null) (0x13e1b8d78)
+[LOG] SoundI::release                          : release subsounds. (0x13402b5b8)
+[LOG] SoundI::release                          :     (null) (0x13e1b8f08)
+[LOG] SoundI::release                          : release codec. (0x13402b5b8)
+[LOG] SoundI::release                          : (null) (0x10ab8c738)
+[LOG] SoundI::release                          : remove stream samples. (0x10ab8c738)
+[LOG] SoundI::release                          :     (null) (0x13eac0e48)
+[LOG] SoundI::release                          : release subsounds. (0x10ab8c738)
+[LOG] SoundI::release                          :     (null) (0x13ea36ab8)
+[LOG] SoundI::release                          : release codec. (0x10ab8c738)
+[LOG] SoundI::release                          : (null) (0x10abef818)
+[LOG] SoundI::release                          : remove stream samples. (0x10abef818)
+[LOG] SoundI::release                          :     (null) (0x154a6cac8)
+[LOG] SoundI::release                          : release subsounds. (0x10abef818)
+[LOG] SoundI::release                          :     (null) (0x154a6cc58)
+[LOG] SoundI::release                          : release codec. (0x10abef818)
+[LOG] SoundI::release                          : (null) (0x13e18bbf8)
+[LOG] SoundI::release                          : remove stream samples. (0x13e18bbf8)
+[LOG] SoundI::release                          :     (null) (0x154a6c088)
+[LOG] SoundI::release                          : release subsounds. (0x13e18bbf8)
+[LOG] SoundI::release                          :     (null) (0x154a6c218)
+[LOG] SoundI::release                          : release codec. (0x13e18bbf8)
+[LOG] SoundI::release                          : (null) (0x13428dfd8)
+[LOG] SoundI::release                          : remove stream samples. (0x13428dfd8)
+[LOG] SoundI::release                          :     (null) (0x154a765a8)
+[LOG] SoundI::release                          : release subsounds. (0x13428dfd8)
+[LOG] SoundI::release                          :     (null) (0x154a76738)
+[LOG] SoundI::release                          : release codec. (0x13428dfd8)
+[LOG] SoundI::release                          : (null) (0x13e0b89f8)
+[LOG] SoundI::release                          : remove stream samples. (0x13e0b89f8)
+[LOG] SoundI::release                          :     (null) (0x154a6bc18)
+[LOG] SoundI::release                          : release subsounds. (0x13e0b89f8)
+[LOG] SoundI::release                          :     (null) (0x154a6bda8)
+[LOG] SoundI::release                          : release codec. (0x13e0b89f8)
+[LOG] SoundI::release                          : (null) (0x1543a78b8)
+[LOG] SoundI::release                          : remove stream samples. (0x1543a78b8)
+[LOG] SoundI::release                          :     (null) (0x154a75b28)
+[LOG] SoundI::release                          : release subsounds. (0x1543a78b8)
+[LOG] SoundI::release                          :     (null) (0x154a75cb8)
+[LOG] SoundI::release                          : release codec. (0x1543a78b8)
+[LOG] SoundI::release                          : (null) (0x134004828)
+[LOG] SoundI::release                          : remove stream samples. (0x134004828)
+[LOG] SoundI::release                          :     (null) (0x154a74eb8)
+[LOG] SoundI::release                          : release subsounds. (0x134004828)
+[LOG] SoundI::release                          :     (null) (0x154a75048)
+[LOG] SoundI::release                          : release codec. (0x134004828)
+[LOG] SoundI::release                          : (null) (0x1543a5ec8)
+[LOG] SoundI::release                          : remove stream samples. (0x1543a5ec8)
+[LOG] SoundI::release                          :     (null) (0x154a742f8)
+[LOG] SoundI::release                          : release subsounds. (0x1543a5ec8)
+[LOG] SoundI::release                          :     (null) (0x1543ea628)
+[LOG] SoundI::release                          : release codec. (0x1543a5ec8)
+[LOG] SoundI::release                          : (null) (0x1340a5a08)
+[LOG] SoundI::release                          : remove stream samples. (0x1340a5a08)
+[LOG] SoundI::release                          :     (null) (0x1543c05a8)
+[LOG] SoundI::release                          : release subsounds. (0x1340a5a08)
+[LOG] SoundI::release                          :     (null) (0x1543c0738)
+[LOG] SoundI::release                          : release codec. (0x1340a5a08)
+[LOG] SoundI::release                          : (null) (0x13e1c30d8)
+[LOG] SoundI::release                          : remove stream samples. (0x13e1c30d8)
+[LOG] SoundI::release                          :     (null) (0x10a9da188)
+[LOG] SoundI::release                          : release subsounds. (0x13e1c30d8)
+[LOG] SoundI::release                          :     (null) (0x10a9da318)
+[LOG] SoundI::release                          : release codec. (0x13e1c30d8)
+[LOG] SoundI::release                          : (null) (0x13e1c2bc8)
+[LOG] SoundI::release                          : remove stream samples. (0x13e1c2bc8)
+[LOG] SoundI::release                          :     (null) (0x134003f88)
+[LOG] SoundI::release                          : release subsounds. (0x13e1c2bc8)
+[LOG] SoundI::release                          :     (null) (0x134004118)
+[LOG] SoundI::release                          : release codec. (0x13e1c2bc8)
+[LOG] SoundI::release                          : (null) (0x13e0184d8)
+[LOG] SoundI::release                          : remove stream samples. (0x13e0184d8)
+[LOG] SoundI::release                          :     (null) (0x134005d18)
+[LOG] SoundI::release                          : release subsounds. (0x13e0184d8)
+[LOG] SoundI::release                          :     (null) (0x10a9d4c48)
+[LOG] SoundI::release                          : release codec. (0x13e0184d8)
+[LOG] SoundI::release                          : (null) (0x10ab72368)
+[LOG] SoundI::release                          : remove stream samples. (0x10ab72368)
+[LOG] SoundI::release                          :     (null) (0x10a995a38)
+[LOG] SoundI::release                          : release subsounds. (0x10ab72368)
+[LOG] SoundI::release                          :     (null) (0x10a9398d8)
+[LOG] SoundI::release                          : release codec. (0x10ab72368)
+[LOG] SoundI::release                          : (null) (0x10ab73918)
+[LOG] SoundI::release                          : remove stream samples. (0x10ab73918)
+[LOG] SoundI::release                          :     (null) (0x13e086f18)
+[LOG] SoundI::release                          : release subsounds. (0x10ab73918)
+[LOG] SoundI::release                          :     (null) (0x10abf3238)
+[LOG] SoundI::release                          : release codec. (0x10ab73918)
+[LOG] SoundI::release                          : (null) (0x154ae3198)
+[LOG] SoundI::release                          : remove stream samples. (0x154ae3198)
+[LOG] SoundI::release                          :     (null) (0x10a994368)
+[LOG] SoundI::release                          : release subsounds. (0x154ae3198)
+[LOG] SoundI::release                          :     (null) (0x13401cd68)
+[LOG] SoundI::release                          : release codec. (0x154ae3198)
+[LOG] SoundI::release                          : (null) (0x10ab79b38)
+[LOG] SoundI::release                          : remove stream samples. (0x10ab79b38)
+[LOG] SoundI::release                          :     (null) (0x10a9a3d68)
+[LOG] SoundI::release                          : release subsounds. (0x10ab79b38)
+[LOG] SoundI::release                          :     (null) (0x13e021898)
+[LOG] SoundI::release                          : release codec. (0x10ab79b38)
+[LOG] SoundI::release                          : (null) (0x1543a1a68)
+[LOG] SoundI::release                          : remove stream samples. (0x1543a1a68)
+[LOG] SoundI::release                          :     (null) (0x10ab89658)
+[LOG] SoundI::release                          : release subsounds. (0x1543a1a68)
+[LOG] SoundI::release                          :     (null) (0x10ab8ba38)
+[LOG] SoundI::release                          : release codec. (0x1543a1a68)
+[LOG] SoundI::release                          : (null) (0x10abae378)
+[LOG] SoundI::release                          : remove stream samples. (0x10abae378)
+[LOG] SoundI::release                          :     (null) (0x1340c80a8)
+[LOG] SoundI::release                          : release subsounds. (0x10abae378)
+[LOG] SoundI::release                          :     (null) (0x10ab8a7a8)
+[LOG] SoundI::release                          : release codec. (0x10abae378)
+[LOG] Thread::callback                         : * FMOD Studio update thread finished
+[LOG] Thread::close                            : FMOD Studio update thread thread destroyed
+[LOG] Thread::callback                         : * FMOD Studio bank load thread finished
+[LOG] Thread::close                            : FMOD Studio bank load thread thread destroyed
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : * FMOD Studio sample load thread finished
+[LOG] Thread::close                            : FMOD Studio sample load thread thread destroyed
+[LOG] LiveUpdate::release                      : 
+[LOG] SystemI::close                           : 
+[LOG] SystemI::close                           : Stop all sounds
+[LOG] Thread::callback                         : * FMOD stream thread finished
+[LOG] Thread::close                            : FMOD stream thread thread destroyed
+[LOG] SystemI::close                           : Stream thread destroyed
+[LOG] Thread::callback                         : * FMOD mixer thread finished
+[LOG] Thread::close                            : FMOD mixer thread thread destroyed
+[LOG] SystemI::close                           : Free master channel group.
+[LOG] SystemI::close                           : Remove 'master' sound group.
+[LOG] SystemI::close                           : Free software output.
+[LOG] SystemI::close                           : Free emulated output.
+[LOG] SystemI::close                           : Free channel pool.
+[LOG] Thread::callback                         : * FMOD nonblocking thread (0) finished
+[LOG] Thread::close                            : FMOD nonblocking thread (0) thread destroyed
+[LOG] Thread::callback                         : * FMOD file thread finished
+[LOG] Thread::close                            : FMOD file thread thread destroyed
+[LOG] SystemI::close                           : done.
+
