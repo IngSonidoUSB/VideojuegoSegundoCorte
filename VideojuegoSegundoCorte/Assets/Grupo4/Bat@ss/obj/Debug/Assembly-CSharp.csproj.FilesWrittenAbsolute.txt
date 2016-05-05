@@ -1,0 +1,17 @@
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/obj/Debug/Assembly-CSharp.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/UnityEngine.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/UnityEditor.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/Mono.Cecil.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/Unity.DataContract.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/carlosandresneisa/Desktop/Bat@ss/Temp/bin/Debug/Mono.Cecil.Mdb.dll
