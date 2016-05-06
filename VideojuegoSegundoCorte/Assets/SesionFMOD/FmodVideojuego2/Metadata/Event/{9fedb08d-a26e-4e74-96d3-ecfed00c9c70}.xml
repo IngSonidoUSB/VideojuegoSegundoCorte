@@ -174,14 +174,14 @@ For more info on AudioGaming AudioWeather, please visit www.fmod.com/products/</
         </relationship>
     </object>
     <object class="LoopRegion" id="{7932babe-3b84-4353-a92c-852f77f729b2}">
+        <property name="triggerProbabilityEnabled">
+            <value>true</value>
+        </property>
         <property name="position">
             <value>0</value>
         </property>
         <property name="length">
             <value>5</value>
-        </property>
-        <property name="triggerProbabilityEnabled">
-            <value>true</value>
         </property>
         <relationship name="timeline">
             <destination>{7dc1a7e8-8dd0-4902-be20-64730c74397b}</destination>
@@ -215,7 +215,7 @@ For more info on AudioGaming AudioWeather, please visit www.fmod.com/products/</
     <object class="MixerBusFader" id="{252aea6d-bac7-4841-ac68-39099987c878}"/>
     <object class="SpatialiserEffect" id="{7c8d9bb8-e447-419f-ab1e-9cddb52ddead}">
         <property name="distanceRolloffType">
-            <value>2</value>
+            <value>4</value>
         </property>
         <property name="minimumDistance">
             <value>25</value>
@@ -224,13 +224,13 @@ For more info on AudioGaming AudioWeather, please visit www.fmod.com/products/</
             <value>100</value>
         </property>
         <property name="extentMode">
-            <value>1</value>
+            <value>2</value>
         </property>
         <property name="soundSize">
-            <value>3.70000005</value>
+            <value>10000</value>
         </property>
         <property name="minimumExtent">
-            <value>118</value>
+            <value>360</value>
         </property>
         <property name="panBlend">
             <value>0.675000072</value>
